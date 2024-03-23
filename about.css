@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #222222;
+  background-color: #000000;
+  background-image: url("loblur.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+body,
+input,
+button {
+  font-family: "Muli", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", Helvetica, sans-serif;
+  outline: none;
+}
+
+.main-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.form-container {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form-body {
+  background-color: #4a304d;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  position: relative;
+}
+
+.form-body .logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-body .logo img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px; /* Adjust this value as needed */
+}
+
+.form-body .title {
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.form-body p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.form-footer {
+  background-color: #f2f2f0;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.form-footer div {
+  font-size: 18px;
+  color: #666;
+}
+
+.form-footer span {
+  color: #222222;
+  font-weight: bold;
+}
+
+.form-footer a {
+  color: #7bff8f;
+  font-weight: bold;
+}
+
+.srouce {
+  text-align: center;
+
+  padding: 20px;
+}
+
+/* Additional styles for the About page */
+.main-container {
+  padding: 10px;
+}
+
+.form-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-body {
+  padding: 30px;
+}
+
+.form-footer {
+  padding: 20px;
+}
+
+.navbar {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  background-color: white;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  color: #000000;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0bb56e;
+}
+
+.nav-but {
+  padding: 2%;
+  margin-left: 10px;
+}
+
+.btn-outline-custom {
+  color: #000000;
+  border-color: green;
+}
+
+.btn-outline-custom:hover {
+  color: #ffffff;
+  background-color: green;
+}
+
+footer {
+  background: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+
+.bottom-bar p {
+  color: #000000;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}

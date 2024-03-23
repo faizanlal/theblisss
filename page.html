@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Bliss - Events</title>
+    <link rel="stylesheet" href="page.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">The Bliss</div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <div class="menu">
+          <a href="about.html">About</a>
+          <a href="event.html">Event</a>
+          <a href="contact.html">Contact</a>
+          <a href="login.html">Login</a>
+        </div>
+      </nav>
+      <section class="hero-text">
+        <h1>Create Beautiful Memories</h1>
+        <h1>Your Event Planner</h1>
+        <br />
+        <h3>Every Event Should Be Perfect</h3>
+        <a href="learn.html">Learn more</a>
+      </section>
+    </header>
+
+    <!-- Event Section -->
+    <section class="event-section">
+      <div class="event-content">
+        <!-- Event Card 1 -->
+        <div class="event">
+          <img src="event1.jpg" alt="Event 1" />
+          <h2>Event 1</h2>
+          <p>Description of Event 1.</p>
+          <a href="#" class="view-details">View Details</a>
+        </div>
+
+        <!-- Event Card 2 -->
+        <div class="event">
+          <img src="event2.jpg" alt="Event 2" />
+          <h2>Event 2</h2>
+          <p>Description of Event 2.</p>
+          <a href="#" class="view-details">View Details</a>
+        </div>
+
+        <!-- Event Card 3 -->
+        <div class="event">
+          <img src="event3.jpg" alt="Event 3" />
+          <h2>Event 3</h2>
+          <p>Description of Event 3.</p>
+          <a href="#" class="view-details">View Details</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="feedback-section">
+      <div class="feedback-content">
+        <!-- Feedback Card 1 -->
+        <div class="feedback-card">
+          <h3>User 1</h3>
+          <p>Great event! Loved every moment.</p>
+        </div>
+
+        <!-- Feedback Card 2 -->
+        <div class="feedback-card">
+          <h3>User 2</h3>
+          <p>Awesome experience. Looking forward to the next event.</p>
+        </div>
+
+        <!-- Feedback Card 3 -->
+        <div class="feedback-card">
+          <h3>User 3</h3>
+          <p>Perfectly organized. Enjoyed it a lot!</p>
+        </div>
+      </div>
+
+      <!-- Feedback Form -->
+      <div class="feedback-card feedback-form">
+        <form>
+          <label for="feedback">Enter your feedback:</label>
+          <textarea id="feedback" name="feedback" rows="4" required></textarea>
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 The Bliss. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        var menu = document.querySelector(".menu");
+        menu.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>

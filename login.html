@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="login-form">
+      <h1>Login</h1>
+      <div class="container">
+        <div class="main">
+          <div class="form-img">
+            <img src="image/login.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h2>Log In</h2>
+            <form action="#" method="post">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                required
+                autofocus=""
+              />
+              <input
+                type="password"
+                name=""
+                placeholder="User Password"
+                required
+                autofocus=""
+              />
+              <button class="btn" type="submit">Login</button>
+            </form>
+            <p class="account">
+              Don't have an account? <a href="sign.html">Register</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import {
+      getAuth,
+      createUserWithEmailAndPassword,
+      signInWithEmailAndPassword,
+    } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+    import {
+      getDatabase,
+      set,
+      ref,
+      update,
+    } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyARO9WDVvoBRNDSYw9GzLGk20pSTou3cdo",
+      authDomain: "signin-e3a43.firebaseapp.com",
+      projectId: "signin-e3a43",
+      storageBucket: "signin-e3a43.appspot.com",
+      messagingSenderId: "582052223622",
+      appId: "1:582052223622:web:600af98e28e56314878f07",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    const auth = getAuth(app);
+
+    const database = getDatabase(app);
+
+    submitdata
+      .addEventListener("click", (e) => {
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+
+        signInWithEmailAndPassword(auth, email, password)
+          .then((userCredential) => {
+            // Signed in
+            const user = userCredential.user;
+
+            var lgDate = new data();
+            last_login: lgDate, update(ref(database, "users/" + user.uid), {});
+          })
+          .then(() => {
+            alert("User Logged in Successfully");
+          })
+          .catch((error) => {
+            alert(error);
+          });
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        alert(errorMessage);
+      });
+  </script>
+</html>

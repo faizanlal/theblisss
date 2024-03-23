@@ -1,0 +1,173 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: "Muli", sans-serif;
+  margin: 0; /* Remove default margin */
+}
+
+/* Header styles */
+header {
+  background-image: url("kk.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 100px 20px; /* Adjusted padding */
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.menu-icon {
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centered menu items */
+  position: absolute;
+  top: 50%; /* Center menu vertically */
+  left: 50%; /* Center menu horizontally */
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 1; /* Ensure menu is on top */
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+}
+
+.menu a:last-child {
+  margin-right: 0;
+}
+
+.hero-text {
+  position: relative; /* Changed position to relative */
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+}
+
+.hero-text h3 {
+  font-size: 1.2em;
+}
+
+.hero-text a {
+  text-decoration: none;
+  color: rgb(10, 9, 9);
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  background-color: rgb(237, 243, 237);
+  transition: background 0.4s;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.hero-text a:hover {
+  background: transparent;
+}
+
+/* Event cards styles */
+.event-section {
+  text-align: center; /* Center the event section content */
+  padding: 50px 20px; /* Adjusted padding */
+}
+
+.event-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.event-card {
+  background-color: #4a304d;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.event-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 2px solid #7bff8f;
+  margin-bottom: 10px;
+}
+
+/* Feedback section styles */
+.feedback-section {
+  background-color: #f2f2f0;
+  padding: 50px 20px;
+}
+
+.feedback-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feedback-card {
+  background-color: #56385a;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  width: calc(33.33% - 20px); /* Adjusted width for 3 cards in a row */
+}
+
+.feedback-card h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.feedback-card p {
+  margin-top: 10px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #2c2c2c;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Media Query for smaller screens (phones) */
+@media only screen and (max-width: 767px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  .hero-text {
+    padding: 20px; /* Adjusted padding for smaller screens */
+  }
+  /* ... (other styles for smaller screens) */
+}

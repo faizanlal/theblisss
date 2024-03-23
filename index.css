@@ -1,0 +1,558 @@
+.navbar {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  background-color: white;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  color: #000000;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0bb56e;
+}
+
+.nav-but {
+  padding: 2%;
+  margin-left: 10px;
+}
+
+.btn-outline-custom {
+  color: #000000;
+  border-color: green;
+}
+
+.btn-outline-custom:hover {
+  color: #ffffff;
+  background-color: green;
+}
+
+.carousel-inner img {
+  max-height: fit-content;
+  width: auto;
+  margin: auto;
+}
+
+.wrapper {
+  position: relative;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+#carouselExample {
+  margin-top: 5px;
+}
+
+.carousel-inner img {
+  max-height: 600px;
+  width: auto;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-indicators li {
+  background-color: #fff;
+  border: 1px solid #18f98f;
+}
+
+.carousel-indicators .active {
+  background-color: #18f98f;
+  border-color: #18f98f;
+}
+
+.container {
+  width: 28vmin;
+  height: 28vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1em 0;
+  position: relative;
+  font-size: 16px;
+  border-radius: 0.5em;
+  background-color: #21242b;
+  border-bottom: 10px solid #18f98f;
+}
+
+i {
+  color: #18f98f;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+span.num {
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+span.text {
+  color: #ffffff;
+  font-size: 1em;
+  text-align: center;
+  padding: 0.7em 0;
+  font-weight: 400;
+  line-height: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 85vw;
+  }
+
+  .container {
+    height: 26vmin;
+    width: 26vmin;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 90vw;
+  }
+
+  .container {
+    width: calc(50% - 20px);
+    height: 30vmin;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    gap: 15px;
+  }
+
+  .container {
+    width: 100%;
+    height: 25vmin;
+    font-size: 8px;
+  }
+}
+
+.welcome-message {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.welcome-section {
+  position: relative;
+}
+
+.welcome-image {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box-area {
+  width: 350px;
+  margin: 25px;
+  padding: 20px;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.6s ease-in-out;
+}
+
+.box-area .icon-area {
+  width: 200%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-area img {
+  max-width: 600px;
+  max-height: 150px;
+  border-radius: 10%;
+}
+
+.box-area h6 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+}
+
+.box-area:hover {
+  background-color: black;
+
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.box-area:hover h3,
+.box-area:hover p {
+  color: #ffffff;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: white;
+  margin: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.theme-text {
+  color: #474af0;
+}
+
+.card-img-top {
+  height: 300px;
+  width: 100%;
+}
+
+.card {
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card:hover {
+  color: white;
+}
+
+.card {
+  z-index: 1;
+  overflow: hidden;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.container-fluid {
+  background-image: url("blob-scene-haikei.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.read-more-btn {
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-12 {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .col-12 {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .col-12 {
+    flex: 0 0 calc(100% - 20px);
+  }
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #f8f9fa;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  color: #212529;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .gallery-item img {
+    height: 200px;
+    border-radius: 4px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.blog-post {
+  width: 45%;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-5px);
+}
+
+.post-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.post-content {
+  padding: 20px;
+}
+
+.post-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.post-meta {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.post-description {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.post-description:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .blog-post {
+    width: 80%;
+  }
+}
+
+.body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background-color: white;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-contact-form {
+  background-color: white;
+  padding: 0px 0;
+}
+
+.custom-container {
+  max-width: 1700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.custom-main {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+}
+
+.custom-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.custom-content h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button.custom-btn {
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button.custom-btn:hover {
+  background-color: #45a049;
+}
+
+/* Styling for the contact image */
+.custom-form-img {
+  flex: 1;
+}
+
+.custom-form-img img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the contact image */
+.custom-form-img:hover img {
+  transform: scale(1.05);
+}
+
+/* Your existing CSS */
+
+/* Footer styling */
+footer {
+  background: #000000;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+
+.bottom-bar p {
+  color: #ffffff;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
+
+#preloader {
+  background: white url(image/loader.gif) no-repeat center center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}

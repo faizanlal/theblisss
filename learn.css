@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-color: #000000;
+  background-image: url("loblur.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 10px;
+  overflow-x: hidden;
+  font-family: "Muli", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.arrow-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 30px solid #ffffff; /* Adjust color as needed */
+  cursor: pointer;
+}
+
+.arrow:hover {
+  border-bottom: 30px solid #f3ebeb; /* Adjust hover color as needed */
+}
+
+.main-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #4a304d;
+  overflow: hidden;
+  padding: 50px;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #f3ebeb;
+  line-height: 1.6;
+}
+/* ... Your existing styles ... */
+
+.main-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #4a304d;
+  overflow: hidden;
+  padding: 50px;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: bold; /* Adjusted font-weight */
+}
+
+p {
+  margin-top: 50px;
+  font-size: 1.2em;
+  color: #e6e6e6;
+  line-height: 1.6;
+}
+
+.ready-to-start {
+  font-weight: bold;
+}
+
+.navbar {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  background-color: white;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  color: #000000;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0bb56e;
+}
+
+.nav-but {
+  padding: 2%;
+  margin-left: 10px;
+}
+
+.btn-outline-custom {
+  color: #000000;
+  border-color: green;
+}
+
+.btn-outline-custom:hover {
+  color: #ffffff;
+  background-color: green;
+}
+
+footer {
+  background: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+
+.bottom-bar p {
+  color: #000000;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}

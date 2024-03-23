@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="icon" type="image/logo" href="image/logo.png" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>The Bliss</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link href="wedding.css" rel="stylesheet" />
+    <style>
+      /* Add your custom styles here */
+    </style>
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <nav class="navbar navbar-expand-lg bg-custom">
+      <div class="container-fluid p-0 px-5">
+        <img
+          src="image/logo.png"
+          alt="Logo"
+          width="70"
+          height="70"
+          class="d-inline-block align-top logo"
+        />
+        <a class="navbar-brand" href="index.html">𝐓𝐡𝐞 𝐁𝐥𝐢𝐬𝐬</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.php"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.php">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Events</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="wedding.php">Wedding</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Conset</a></li>
+                <li><a class="dropdown-item" href="#">Birthday Party</a></li>
+                <li><a class="dropdown-item" href="#">Corporate Events</a></li>
+                <li><a class="dropdown-item" href="#">Custom Events</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="learn.php">Learn More</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-but">
+              <a
+                class="btn btn-outline-custom rounded-5 p-2 px-3 fw-bold"
+                href="sign.php"
+                >SignUp</a
+              >
+            </li>
+            <li class="nav-but">
+              <a
+                class="btn btn-outline-custom rounded-5 p-2 px-3 bg-success text-bg-light fw-bold"
+                href="login.php"
+                >Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Add your carousel items here -->
+        <div class="carousel-item active">
+          <img src="image/event2.jpg" class="d-block w-100" alt="First Slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="image/ms1.jpg" class="d-block w-100" alt="Second Slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="image/ms2.jpg" class="d-block w-100" alt="Second Slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="image/ms3.jpg" class="d-block w-100" alt="Second Slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="image/ms4.jpeg" class="d-block w-100" alt="Second Slide" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="image/events-management-manchester.jpg"
+            class="d-block w-100"
+            alt="Second Slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="image/dance.jpg" class="d-block w-100" alt="Second Slide" />
+        </div>
+        <div class="carousel-item">
+          <img src="image/p1.jpg" class="d-block w-100" alt="Second Slide" />
+        </div>
+        <!-- Add more carousel items as needed -->
+      </div>
+
+      <!-- Custom Carousel Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <!-- Use Font Awesome icon for "Previous" -->
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <!-- Use Font Awesome icon for "Next" -->
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="welcome-message">
+      <div class="welcome-section">
+        <!-- Replace the h1 with an image -->
+        <img
+          src="image/Black Minimal Email Header (222).png"
+          alt="Welcome Image"
+          class="welcome-image"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="detail">
+        <div class="image">
+          <img src="image/p6.webp" alt="Wedding Image" />
+        </div>
+        <br />
+        <div class="content">
+          <h1 class="name">𝐓𝐡𝐞 𝐁𝐥𝐢𝐬𝐬 𝐖𝐞𝐝𝐝𝐢𝐧𝐠</h1>
+          <div class="description">
+            <p>
+              𝗖𝗮𝗽𝘁𝘂𝗿𝗲 𝘁𝗵𝗲 𝗲𝘀𝘀𝗲𝗻𝗰𝗲 𝗼𝗳 𝘆𝗼𝘂𝗿 𝗹𝗼𝘃𝗲 𝘀𝘁𝗼𝗿𝘆 𝘄𝗶𝘁𝗵 𝗼𝘂𝗿 𝗲𝘅𝗾𝘂𝗶𝘀𝗶𝘁𝗲 𝘄𝗲𝗱𝗱𝗶𝗻𝗴
+              𝘃𝗲𝗻𝘂𝗲, 𝘄𝗵𝗲𝗿𝗲 𝗱𝗿𝗲𝗮𝗺𝘀 𝗯𝗲𝗰𝗼𝗺𝗲 𝗰𝗵𝗲𝗿𝗶𝘀𝗵𝗲𝗱 𝗺𝗲𝗺𝗼𝗿𝗶𝗲𝘀 𝗮𝗴𝗮𝗶𝗻𝘀𝘁 𝗮 𝗯𝗮𝗰𝗸𝗱𝗿𝗼𝗽
+              𝗼𝗳 𝘁𝗶𝗺𝗲𝗹𝗲𝘀𝘀 𝗯𝗲𝗮𝘂𝘁𝘆.
+            </p>
+            <p>Some points of the wedding event:</p>
+            <ul>
+              <li>Beautiful outdoor setting</li>
+              <li>Spacious banquet hall</li>
+              <li>Professional event planning services</li>
+              <li>Customizable wedding packages</li>
+            </ul>
+          </div>
+          <div class="price">Starting Price: ₹ 90k</div>
+        </div>
+      </div>
+      <br />
+
+      <div class="buttons">
+        <a
+          href="https://wa.me/9313157929/?text=𝐓𝐡𝐞%20𝐁𝐥𝐢𝐬𝐬%20𝐖𝐞𝐝𝐝𝐢𝐧𝐠%0A%0A𝗖𝗮𝗽𝘁𝘂𝗿𝗲%20𝘁𝗵𝗲%20𝗲𝘀𝘀𝗲𝗻𝗰𝗲%20𝗼𝗳%20𝘆𝗼𝘂𝗿%20𝗹𝗼𝘃𝗲%20𝘀𝘁𝗼𝗿𝘆%20𝘄𝗶𝘁𝗵%20𝗼𝘂𝗿%20𝗲𝘅𝗾𝘂𝗶𝘀𝗶𝘁𝗲%20𝘄𝗲𝗱𝗱𝗶𝗻𝗴%20𝘃𝗲𝗻𝘂𝗲%2C%20𝘄𝗵𝗲𝗿𝗲%20𝗱𝗿𝗲𝗮𝗺𝘀%20𝗯𝗲𝗰𝗼𝗺𝗲%20𝗰𝗵𝗲𝗿𝗶𝘀𝗵𝗲𝗱%20𝗺𝗲𝗺𝗼𝗿𝗶𝗲𝘀%20𝗮𝗴𝗮𝗶𝗻𝘀𝘁%20𝗮%20𝗯𝗮𝗰𝗸𝗱𝗿𝗼𝗽%20𝗼𝗳%20𝘁𝗶𝗺𝗲𝗹𝗲𝘀𝘀%20𝗯𝗲𝗮𝘂𝘁𝘆.%0A%0ASome%20points%20of%20the%20wedding%20event%3A%0A%0A-Beautiful%20outdoor%20setting%0A-Spacious%20banquet%20hall%0A-Professional%20event%20planning%20services%0A-Customizable%20wedding%20packages%0A%0AStarting%20Price%3A%20%E2%82%B9%2090k"
+          class="book-now-btn"
+          target="_blank"
+        >
+          <img
+            src="image/whatsapp.webp"
+            alt="WhatsApp Logo"
+            style="vertical-align: middle; margin-right: 5px"
+          />
+          Book Now on WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="image/mar1.jpg" alt="Image 1" />
+      </div>
+      <div class="gallery-item">
+        <img src="image/mar2.jpg" alt="Image 2" />
+      </div>
+      <div class="gallery-item">
+        <img src="image/mar3.jpg" alt="Image 3" />
+      </div>
+      <div class="gallery-item">
+        <img src="image/mar4.jpg" alt="Image 4" />
+      </div>
+    </div>
+
+    <div class="welcome-message">
+      <div class="welcome-section">
+        <!-- Replace the h1 with an image -->
+        <img
+          src="image/Black Minimal Email Header (999).png"
+          alt="Welcome Image"
+          class="welcome-image"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2 class="section-title">Pricing Details</h2>
+        <div class="pricing-section">
+          <div class="pricing-item">
+            <p><strong>Minimum Charges per Event Day:</strong></p>
+            <p>₹ 1,50,000</p>
+          </div>
+          <div class="pricing-item">
+            <p><strong>Payment Policy:</strong></p>
+            <ul class="details-list">
+              <li>100% payment is required at the time of booking.</li>
+              <li>No payment is due on the event date.</li>
+              <li>No payment is required after deliverables are provided.</li>
+            </ul>
+          </div>
+          <div class="pricing-item">
+            <p><strong>Cancellation Policy:</strong></p>
+            <p>
+              Our cancellation policy ensures a full refund if you cancel more
+              than 30 days before the event. For cancellations made between 15
+              and 30 days before the event, a 50% refund is applicable.
+              Unfortunately, cancellations within 15 days of the event date are
+              non-refundable.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 class="section-title">About Our Services</h2>
+        <div class="section-content">
+          <div class="property-details">
+            <h3 class="details-title">Introduction:</h3>
+            <p>
+              At The Bliss, we offer comprehensive event management and booking
+              services tailored to your preferences and comfort. We believe that
+              every event is special and deserves our utmost attention to
+              detail.
+            </p>
+          </div>
+
+          <div class="property-details">
+            <h3 class="details-title">Property Types:</h3>
+            <p>We provide various property types based on your requirements.</p>
+          </div>
+          <div class="property-details">
+            <h3 class="details-title">Maximum Capacity:</h3>
+            <p>We accommodate guests based on the venue's capacity.</p>
+          </div>
+          <div class="property-details">
+            <h3 class="details-title">Event Areas:</h3>
+            <p>We customize event areas according to your needs.</p>
+          </div>
+          <div class="accommodation-details">
+            <h3 class="details-title">Accommodation:</h3>
+            <p>
+              We ensure accommodations are conveniently located near the venue.
+            </p>
+          </div>
+          <div class="facilities-details">
+            <h3 class="details-title">Additional Facilities:</h3>
+            <ul class="details-list">
+              <li>Electricity Back-up</li>
+              <li>Bar Facilities</li>
+              <li>Wi-Fi Connectivity</li>
+              <li>Vallet Parking</li>
+              <li>Airport Pick-up/Drop Services</li>
+              <li>Concierge Services</li>
+              <li>Parking Facility</li>
+            </ul>
+          </div>
+          <div class="section-content">
+            <h3 class="details-title">Food Policy:</h3>
+            <p>
+              We collaborate with reputable caterers to meet your culinary
+              needs.
+            </p>
+          </div>
+          <div class="section-content">
+            <h3 class="details-title">Decor Policy:</h3>
+            <p>
+              Professional decorators are provided to enhance the ambiance of
+              your event.
+            </p>
+          </div>
+          <div class="section-content">
+            <h3 class="details-title">DJ Policy:</h3>
+            <p>We allow DJs to perform until 11 PM to entertain your guests.</p>
+          </div>
+          <div class="section-content">
+            <h3 class="details-title">Alcohol Policy:</h3>
+            <p>
+              We offer a selection of alcoholic beverages within specified
+              limits.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="welcome-message">
+      <div class="welcome-section">
+        <!-- Replace the h1 with an image -->
+        <img
+          src="image/Black Minimal Email Header (111).png"
+          alt="Welcome Image"
+          class="welcome-image"
+        />
+      </div>
+    </div>
+
+    <div class="testimonial-section">
+      <div class="testimonial-section__content">
+        <h1>Discover why couples adore The Bliss for their Indian weddings</h1>
+        <h3>
+          With years of expertise in crafting unforgettable Indian weddings, The
+          Bliss has earned the trust of countless couples seeking to celebrate
+          their love in grand style.
+        </h3>
+        <h4>
+          Our dedicated team specializes in curating traditional Indian weddings
+          infused with modern elegance, ensuring every aspect reflects the
+          couple's unique vision and cultural heritage.
+        </h4>
+      </div>
+      <div class="testimonial-section__cards">
+        <div class="card">
+          <img src="image/user.jpg" alt="user" />
+          <div class="card__content">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              Our wedding was an absolute dream, thanks to the incredible
+              support and attention to detail provided by The Bliss team. Highly
+              recommended!
+            </p>
+            <h4>- Meet & Shrii Patel</h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/user.jpg" alt="user" />
+          <div class="card__content">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              The Bliss team went above and beyond to ensure our wedding was a
+              mesmerizing celebration of love and culture. We couldn't be
+              happier with their services!
+            </p>
+            <h4>- Neha & Rohan Singh</h4>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/user.jpg" alt="user" />
+          <div class="card__content">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              Planning our wedding with The Bliss was an absolute delight. Their
+              expertise in traditional rituals and contemporary trends made our
+              big day truly magical.
+            </p>
+            <h4>- Ananya & Vikram Sharma</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="welcome-message">
+      <div class="welcome-section">
+        <!-- Replace the h1 with an image -->
+        <img
+          src="image/Black Minimal Email Header (000).png"
+          alt="Welcome Image"
+          class="welcome-image"
+        />
+      </div>
+    </div>
+
+    <div class="custom-feedback-form">
+      <div class="custom-container">
+        <div class="custom-main">
+          <div class="custom-content">
+            <h1 class="text-center">
+              Feedback <span class="theme-text">Form</span>
+            </h1>
+            <form action="feedback.php" method="POST">
+              <input
+                type="name"
+                name="name"
+                placeholder="Enter Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Your Email"
+                required
+              />
+              <textarea
+                name="feedback"
+                placeholder="Your Feedback"
+                required
+              ></textarea>
+              <button type="submit" class="custom-btn">Submit Feedback</button>
+            </form>
+          </div>
+          <div class="custom-form-img">
+            <img src="image/star.png" alt="Feedback Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="bottom-bar">
+        <p>&copy; 2024 The Bliss. All rights reserved</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
